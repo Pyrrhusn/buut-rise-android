@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="primary">#FF42C4BE</color>
+    <color name="primary_lighten">#FF65D0CB</color>
+    <color name="primary_darken">#FF339995</color>
+    <color name="secondary">#FFFFFFFF</color>
+    <color name="secondary_darker">#ECECEC</color>
+    <color name="secondary_contrast_text">#FF272C34</color>
+    <color name="appbar_background">#FF42C4BE</color>
+    <color name="info">#2096F3</color>
+    <color name="success">#00C852</color>
+    <color name="warning">#FF9800</color>
+    <color name="error">#F44336</color>
+</resources>

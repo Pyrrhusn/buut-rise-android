@@ -1,0 +1,5 @@
+package com.example.android_2425_gent2.data.network.model
+
+data class NotificationResponse(
+    val notifications: List<NotificationDto>
+)
