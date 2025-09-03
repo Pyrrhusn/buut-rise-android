@@ -2,7 +2,7 @@
 
 This project is an Android application developed in 100% Kotlin. It is developed using best practices, modern architecture and the Android recommended Jetpack Compose toolkit. It is functionally a mobile version of the .NET Blazor App found at the [buut-dotnet](https://github.com/Pyrrhusn/buut-rise-dotNet#) repo.
 
-#### Some features (not exhaustive):
+#### Some features (non-exhaustive)
 - Built with Jetpack components (ViewModel, StateFlow, Navigation) for robust and reactive user interfaces.
 - Offline-first approach; Room database 
 - Dependency Injection
