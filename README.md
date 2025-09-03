@@ -1,16 +1,15 @@
-# Rise - GENT2 - Android
+### Buut + Android - Group project
 
-## Team Members
+This project is an Android application developed in 100% Kotlin. It is developed using best practices, modern architecture and the Android recommended Jetpack Compose toolkit. It is functionally a mobile version of the .NET Blazor App found at the [buut-dotnet](https://github.com/Pyrrhusn/buut-rise-dotNet#) repo.
 
-- Bram Rampelberg - <bram.rampelberg@student.hogent.be> - BramRampelberg
-- Xan Pinson - <xan.pinson@student.hogent.be> - Snowyxa
-- Pushwant Sagoo - <pushwant.sagoo@student.hogent.be> - PushwantSagoo
-- Sujan Sapkota - <sujan.sapkota@student.hogent.be> - sujansapkota2
-- Simon De Roeve - <simon.deroeve@student.hogent.be> - SimonDeRoeve
-- Bas Stokmans - <bas.stokmans@student.hogent.be> - baziniser
-- Bindo Thorpe - <bindo.thorpe@student.hogent.be> - bindothorpe
+#### Some features:
+- Built with Jetpack components (ViewModel, StateFlow, Navigation) for robust and reactive user interfaces.
+- Offline-first approach; Room database 
+- Dependency Injection
+- Retrofit is used for API communication; DTOs map network responses to domain models.
+- Coroutines and Flow for asynchronous programming
 
-## Running the application
+#### Running the application
 
 1. Create or modify your `local.properties` file in the project root and add the following properties:
 
@@ -21,7 +20,7 @@ DEV_BASE_URL=http://10.0.2.2:5000/
 
 2. Sync gradle files and run MainActivity on an android emulator.
 
-## Testing
+#### Testing
 
 In project root run the following commands:
 
@@ -30,7 +29,7 @@ In project root run the following commands:
   - Automatically launch emulator and run tests: `./gradlew connectedAndroidTest`
   - Run tests on already connected emulator (e.g. for github actions): `./gradlew connectedCheck`
 
-## Build
+#### Build
 
 In project root:
 
